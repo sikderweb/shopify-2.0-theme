@@ -1908,8 +1908,8 @@ input[type='checkbox'] {
   .header--top-left,
   .header--middle-left:not(.header--has-menu) {
     grid-template-areas:
-      'heading icons'
-      'navigation navigation';
+      
+      'navigation navigation' 'heading icons';
     grid-template-columns: 1fr auto;
   }
 
